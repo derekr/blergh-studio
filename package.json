@@ -1,0 +1,35 @@
+{
+  "name": "blergh-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Derek Reynolds <bigdspbandj@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check",
+    "dev": "sanity start -p $PORT",
+    "build": "sanity build public -y",
+    "sanity-upgrade": "sanity upgrade"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^1.149.3",
+    "@sanity/cli": "^1.149.2",
+    "@sanity/code-input": "^1.149.0",
+    "@sanity/components": "^1.149.3",
+    "@sanity/core": "^1.149.2",
+    "@sanity/default-layout": "^1.149.3",
+    "@sanity/default-login": "^1.149.0",
+    "@sanity/desk-tool": "^1.149.3",
+    "@sanity/production-preview": "^1.149.0",
+    "@sanity/vision": "^1.149.0",
+    "prop-types": "^15.6",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {}
+}
