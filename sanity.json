@@ -2,7 +2,7 @@
   "root": true,
   "project": {
     "name": "blergh",
-    "basePath": "/studio"
+    "basePath": "/"
   },
   "api": {
     "projectId": "6u24pg6u",
